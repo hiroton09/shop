@@ -180,7 +180,7 @@ ul {
 }
     
 /* ---------- sm ---------- */
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     p {
         font-size: 0.9rem;
     }
