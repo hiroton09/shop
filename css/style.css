@@ -124,7 +124,7 @@ ul {
 
 /* ========== Media Queries ========== */
 /* ---------- md ---------- */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     p {
         font-size: 0.9rem;
     }
@@ -180,7 +180,7 @@ ul {
 }
     
 /* ---------- sm ---------- */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     p {
         font-size: 0.9rem;
     }
