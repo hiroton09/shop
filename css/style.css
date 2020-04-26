@@ -1,0 +1,204 @@
+body, ul {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Sans MS';
+    color: #555;
+}
+h2 {
+    width: 15rem;
+    padding: 1rem;
+    margin: 8rem auto 4rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+ul {
+    list-style: none;
+}
+.content {margin: 0 10%;}
+.new {
+    position: relative;
+    top: 2rem;
+    left: 1.5rem;
+    width: 4.5rem;
+    padding: 0.3rem 0;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+}.price {
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+/* ----- Header Section ----- */
+#header {
+    opacity: 0.7;
+}
+/* ----- Main Section ----- */
+.mainImg > img {
+    width: 100%;
+}
+/* ----- Recomend Section ----- */
+#recomend > ul {
+    display: flex;
+}
+#recomend > ul > li:nth-child(n+1) {
+    margin-right: 2rem;
+}
+#recomend > ul > li > img {
+    width: 100%;
+}
+/* ----- About Section ----- */
+.aboutContainer {
+    display: flex;
+}
+.aboutContainer > img {
+    width: 50%;
+    height: 50%;
+}
+.aboutBody {
+    margin: 4%;
+}
+.aboutBody > h3 {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+/* ----- Item Section ----- */
+#item {margin-bottom: 10rem;}
+#item > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#item > ul > li {
+    width: 30%;
+    margin-bottom: 2.5rem;
+}
+#item > ul > li > img {
+    width: 100%;
+}
+/* ----- Contact Section ----- */
+#contact {
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+    margin-top: 4rem;
+}
+#contact > h2 {
+    margin: 0 auto 4rem;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+}
+/* -- Profile Content -- */
+.profile {
+    width: 50%;
+    padding-right: 5rem;
+}
+.profile > img {
+    width: 8rem;
+    float: left;
+    margin-right: 2rem;
+}
+.contactForm, .delivery {
+    width: 30%;
+    margin: 0 auto;
+}
+.profile > h3, .contactForm > h3, .delivery > h3 {
+    width: 10rem;
+    margin: 0 auto 1.5rem;
+    border-bottom: 1px solid #fff;
+}
+.icons > a {
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.fa-instagram:hover, .fa-facebook-f:hover, .fa-twitter:hover {
+    color: #262626;
+}
+
+/* ========== Media Queries ========== */
+/* ---------- md ---------- */
+@media (max-width: 768px) {
+    p {
+        font-size: 0.9rem;
+    }
+    /* ----- Recomend Section ----- */
+    #recomend > ul {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #recomend > ul > li {
+        width: 45%;
+    }
+    #recomend > ul > li:nth-child(n+1) {
+        margin-right: 0rem;
+    }
+    /* ----- About Section ----- */
+    .aboutContainer > img {
+        width: 40%;
+        height: 40%;
+    }
+    .aboutBody {
+        margin-top: 0rem;
+    }
+    .aboutBody > h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    /* ----- Item Section ----- */
+    #item > ul > li {
+        width: 30%;
+        margin-bottom: 1.5rem;
+    }
+    /* ----- Contact Section ----- */
+    .contactContainer {
+        display: block;
+    }
+    /* -- Profile Content -- */
+    .profile {
+        width: 70%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .profile > img {
+        width: 8rem;
+        float: left;
+        margin-right: 2rem;
+    }
+    .contactForm, .delivery {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .profile, .contactForm, .delivery {
+        margin-bottom: 4rem;
+    }
+}
+    
+/* ---------- sm ---------- */
+@media (max-width: 576px) {
+    /* ----- Recomend Section ----- */
+}
+    
+    /*
+    Extra small (xs) devices (portrait phones, less than 576px)
+    No media query since this is the default in Bootstrap
+    
+    Small (sm) devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { ... }
+    
+    Medium (md) devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+    
+    Large (lg) devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }
+    
+    Extra (xl) large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
+    */
+    
