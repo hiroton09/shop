@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 body, ul {
     padding: 0;
     margin: 0;
-    font-family: 'Comic Sans MS','Chalcbord SE','Hannotate TC',ヒラギノ角ゴ,'Meiryo UI';
+    font-family: 'Patrick Hand', 'M PLUS Rounded 1c', cursive;
+
+    /* font-family: 'Comic Sans MS','Chalcbord SE','Hannotate TC',ヒラギノ角ゴ,'Meiryo UI'; */
     color: #555;
 }
 h2 {
@@ -144,6 +147,7 @@ ul {list-style: none;}
         padding: 0;
         margin: 0 auto;
     }
+    .contactForm > p, .delivery > p {font-size: 1.2rem;}
     .contactForm, .delivery {
         width: 70%;
         margin: 0 auto;
