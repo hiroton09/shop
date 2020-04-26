@@ -55,6 +55,7 @@ ul {
 .aboutContainer > img {
     width: 50%;
     height: 50%;
+    float: left;
 }
 .aboutBody {
     margin: 4%;
@@ -100,7 +101,7 @@ ul {
     padding-right: 5rem;
 }
 .profile > img {
-    width: 8rem;
+    width: 20%;
     float: left;
     margin-right: 2rem;
 }
@@ -128,6 +129,13 @@ ul {
     p {
         font-size: 0.9rem;
     }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .new {
+        width: 3.5rem;
+        font-size: 0.7rem;
+    }
     /* ----- Recomend Section ----- */
     #recomend > ul {
         flex-wrap: wrap;
@@ -141,8 +149,8 @@ ul {
     }
     /* ----- About Section ----- */
     .aboutContainer > img {
-        width: 40%;
-        height: 40%;
+        width: 30%;
+        height: 30%;
     }
     .aboutBody {
         margin-top: 0rem;
@@ -165,11 +173,6 @@ ul {
         padding: 0;
         margin: 0 auto;
     }
-    .profile > img {
-        width: 8rem;
-        float: left;
-        margin-right: 2rem;
-    }
     .contactForm, .delivery {
         width: 70%;
         margin: 0 auto;
@@ -180,7 +183,7 @@ ul {
 }
     
 /* ---------- sm ---------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
 
 }
     
